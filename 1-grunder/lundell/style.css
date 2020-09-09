@@ -1,0 +1,21 @@
+body {
+background-image: url("./bilder/skane.jpg");
+}
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    color: yellow;
+    margin: 20px;
+}
+p {
+    font-family: 'Patua One', cursive;
+    color: yellow;
+    background-color: blue;
+    width: 500px;
+    border: 5px solid yellow;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+img {
+
+}
