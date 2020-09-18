@@ -1,0 +1,48 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utseende på sidan */
+body {
+    background: url("./bilder/SconesBackground.jpg");
+    background-size: 1300px;
+}
+
+/* Utseende på boxen */
+div {
+    width: 700px;
+    background: #ffffff;
+    margin: 40px auto 40px auto;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px #000000;
+}
+
+/* Utseende på innehållet */
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+}
+p {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin-bottom: 10px;
+}
+li {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    list-style-type: square;
+}
