@@ -1,0 +1,52 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layoutens utseende */
+body {
+    background-image: url("./bilder/background.gif");
+}
+.kontainer {
+    width: 600px;
+    background: #0077b6;
+    margin: auto;
+    padding: 50px;
+    font-size: 100%;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #03045e;
+    text-shadow: 0 5px 5px whitesmoke;
+    padding-bottom: 30px;
+}
+
+/* Inlähhens utseende */
+.inlägg {
+    font-family: 'Red Rose', cursive;
+    background:#023e8a;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+img {
+    width: 100%;
+    box-shadow: 0 0 20px black;
+}
+h2 {
+    color: black;
+}
+p {
+    color: black;
+}
