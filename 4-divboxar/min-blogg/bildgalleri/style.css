@@ -1,0 +1,65 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.color-primary-0 { color: #00A790 }	/* Main Primary color */
+.color-primary-1 { color: #008472 }
+.color-primary-2 { color: #00A18B }
+.color-primary-3 { color: #308A7E }
+.color-primary-4 { color: #90BEB7 }
+/* Sidans utseende */
+body {
+    background: url("./bilder/background.jpg");
+}
+.kontainer {
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: #00a18b94;
+    color: cyan;
+    font-family: 'Nova Flat', cursive;
+}
+
+/* Sidans sidhuvud */
+h1 {
+    font-family: 'Nova Flat', cursive;
+    font-size: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #00A790;
+}
+.intro {
+    font-size: 30px;
+}
+
+/* Bildboxens utseende */
+.bild {
+    background: rgb(5, 73, 82);
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+img {
+    width: 400px;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+}
+p {
+    font-family: 'Nova Flat', cursive;
+}
+hr {
+    visibility: hidden;
+    clear: both;
+}
+/* Sidfotens utseende */
+.tack {
+    font-family: 'Nova Flat', cursive;       
+}
