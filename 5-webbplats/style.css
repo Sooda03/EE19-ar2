@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:wght@300&family=Secular+One&display=swap');
+
+/* CSS HEX */
+:root {
+--imperial-red: #e63946ff;
+--honeydew: #f1faeeff;
+--powder-blue: #a8dadcff;
+--celadon-blue: #457b9dff;
+--prussian-blue: #1d3557ff;
+}
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Grunder */
+body {
+    color: black;
+}
+
+.kontainer {
+    background: #999;
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+}
+
+.kontainer h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #e63946ff;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kontainer h2 {
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+/* Menyn */
+.kontainer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.kontainer ul li {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    display: inline;
+}
+.kontainer ul a:hover {
+    background: #1d3557ff;
+    box-shadow: none;
+}
+.kontainer ul a.aktiv{
+    background: #457b9dff;
+}
+.kontainer ul a {
+    color: #f1faeeff;
+    background: #000000;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px darkblue;
+    width: 100px;
+    display: inline-block;
+}
+
+/* Figure bild */
+.kontainer figure {
+    background: #fff;
+    width: 420px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px #000000;
+}
+
+.kontainer figure img {
+width: 100%;
+}
+
+.kontainer figure figcaption {
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* Sidans text */
+.kontainer p {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.kontainer p a {
+background:  var(--orange-yellow-crayola);
+color: #fff;
+text-decoration: none;
+}
