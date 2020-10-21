@@ -12,22 +12,32 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Sidhuvudets utseende */
 .sidhuvud {
-
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
 }
 .sidhuvud img {
 
 }
 .sidhuvud ul {
-
+    list-style-type: none;
+    margin: 30px;
 }
-.sidhuvud li {
-
+.sidhuvud li { 
+    display: inline;
+    margin-left: 15px;
 }
 .sidhuvud li a {
+    text-decoration: none;
+    color: #682f1c;
+    font-size: 24px;
     font-family: 'Poppins', sans-serif;
 }
 .sidhuvud li a:hover {
-
+    color: #86978A;
+}
+.sidhuvud li a.aktiv {
+    color: #f7a600;
 }
 
 /* Rutornas utseende */
@@ -44,20 +54,33 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     background: #EFDAC5;
 }
 .rutor .burgare {
-
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 .rutor .burgare h1 {
     font-family: 'Poppins', sans-serif;
+    color: #682f1c;
+    align-self: center;
+    margin-top: 120px;
 }
 .rutor .burgare h2 {
+    text-align: center;
+    color: #682f1c;
     font-family: 'Caveat', cursive;
 }
 .rutor .burgare img {
-    width: 100%;
+    width: 80%;
+    transition: all 0.2s;
 }
 .rutor .burgare img:hover {
-
+    transform: scale(1.2);
 }
 .rutor .burgare p {
     font-family: 'Poppins', sans-serif;
+    color: #682f1c;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
 }

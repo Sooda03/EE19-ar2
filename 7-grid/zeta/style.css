@@ -1,0 +1,37 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.kontainer {
+    font-family: 'Open Sans', sans-serif;
+}
+.kontainer img {
+    width: 100%;
+}
+.kontainer h1 {
+
+}
+.kontainer p {
+
+}
+.kontainer .produkter {
+    font-family: 'Oxygen Mono', monospace;
+}
+.kontainer .produkter img {
+    width: 15%;
+}
+.kontainer .produkter img:hover {
+    transform: scale(1.2);
+}
+.kontainer .produkter p {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
