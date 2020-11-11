@@ -1,0 +1,82 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("./bilder/background2.jpg");
+    background-size: 110%;
+}
+
+.kontainer {
+    width: 1200px;
+}
+
+.kontainer h1 {
+    font-family: 'Syne Tactile', cursive;
+    background: #7e0d0d;
+    padding: 10px;
+    margin: 50px 50px 10px 50px;
+    border-radius: 5px;
+}
+
+.kontainer h2 {
+    font-size: 18px;
+    font-family: 'Syne Mono', monospace;
+    background: #7e0d0d;
+    padding: 10px;
+    padding-bottom: 40px;
+    margin: 10px 50px 50px 50px;
+    border-radius: 5px;
+}
+
+.kontainer a {
+    color: darkgray;
+    font-size: 18px;
+    font-family: 'Syne Mono', monospace;
+    background: #7e0d0d;
+    padding: 10px;
+    margin: 0px 10px 10px 40px;
+    border-radius: 5px;
+}
+
+.kontainer a:hover {
+    color: black;
+}
+
+.kontainer .bilder p {
+    font-size: 18px;
+    font-family: 'Syne Mono', monospace;
+    background: #7e0d0d;
+    padding: 10px;
+    margin: 10px 500px 0px 50px;
+    border-radius: 5px;
+}
+
+.kontainer .bilder img {
+    margin-left: 100px; 
+    background: none;
+    width: 200px;
+}
+
+.kontainer .bilder2 p {
+    font-size: 18px;
+    font-family: 'Syne Mono', monospace;
+    background: #7e0d0d;
+    padding: 10px;
+    margin: 10px 10px 0px 500px;
+    border-radius: 5px;
+}
+
+.kontainer .bilder2 img {
+    margin-left: 550px;
+    background: none;
+    width: 200px;
+}

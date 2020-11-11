@@ -1,0 +1,94 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("./bilder/background4.jpg");
+    background-size: 1400px;
+}
+.kontainer {
+
+}
+
+.kontainer h1 {
+    font-family: 'Syne Tactile', cursive;
+    background: #6d6c6c;
+    padding: 10px;
+    margin: 10px 1050px 10px 10px;
+    border: 2px solid darkviolet;
+    border-radius: 5px;
+    color: rgb(60, 16, 78);
+}
+
+.kontainer .main {
+    font-family: 'Syne Mono', monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.kontainer .usa {
+    background: #2e04a3;
+    color: #ff0000;
+    border-radius: 5px;
+}
+
+.kontainer .usa h2 {
+    font-family: 'Syne Tactile', cursive;
+}
+
+.kontainer .usa p {
+
+}
+
+.kontainer .usa img {
+    width: 100px;
+}
+
+.kontainer .usa img:hover {
+    width: 120px;
+}
+
+.kontainer .sverige {
+    background: #088fdd;
+    color: #cde20f;
+    border-radius: 5px;
+}
+
+.kontainer .sverige h2 {
+
+}
+
+.kontainer .sverige p {
+
+}
+
+.kontainer .sverige img {
+    width: 100px;
+}
+
+.kontainer .sverige img:hover {
+    width: 120px;
+}
+
+.kontainer .gif {
+    background: #ffffff91;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.kontainer .gif p {
+    font-size: 90%;
+}
+
+.kontainer .gif img {
+
+}
