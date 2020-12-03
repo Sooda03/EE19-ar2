@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uppgift 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        /* Skapa ett skript som frågar användaren vad hen heter.
+    Om användaren heter Tova ska skriptet säga att användaren har namnsdag idag.
+    Om användaren istället heter Abbe ska skriptet svara "Du har namnsdag imorgon", men om användaren varken heter Tova eller Abbe ska skriptet svara "Du har   varken namnsdag vare sig idag eller imorgon". */
+
+    // frågar användaren vad hen heter.
+ 
+    // Om användaren heter tova ska skriptet säga att användaren har namnsdag idag.
+
+    // Om användaren heter abbe ska skriptet säga att användaren har namnsdag imorgon.
+
+    // Om användaren inte heter abbe eller tova ska skriptet svara att hen inte har namnsdag idag eller imorgon.
+
+        function vadHeter() {
+            var namnet = prompt("Vad heter du?");
+            if (namnet == "Tova") {
+                alert("Du har namnsdagen idag!");
+            } else if (namnet == "Abbe") {
+                alert("Du har namsdagen imorgon!");
+            } else {
+                alert("Du har varken namnsdagen idag eller imorgon!");
+            }
+        }
+    </script>
+</body>
+</html>
