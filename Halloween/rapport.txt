@@ -1,0 +1,3 @@
+Arbetet gick bra under veckorna, hadde lite svårt att arbeta i början av det men det gick bättre med tidens gång. Vid dom sista veckorna testate jag lite mer med css grid och andra mer komplicerade kommandon för mitt Halloween projekt för att maximera dens användning. Fungerar i chrome.
+
+Sidorna var lite lika i början och en del kan fortfarande vara lite men försökte mitt bästa för att variera dem med varandra.
