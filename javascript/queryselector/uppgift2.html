@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Läsa ifrån sidan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Läsa ifrån sidan</h1>
+
+        <h2>Input</h2>
+        <label>Ange förnamn <input class="fnamn" type="text"></label>
+        <label>Ange efternamn <input class="enamn" type="text"></label>
+        <label>Ange ålder <input class="ålder" type="text"></label>
+        <button onclick="läsa()">Skicka</button>
+    </div>
+        <script>
+
+                const eInputFnamn = document.querySelector(".fnamn");
+                const eInputEnamn = document.querySelector(".enamn");
+                const eInputÅlder = document.querySelector(".ålder");
+                const eInputSvar = document.querySelector(".svar");
+
+                function körKort() {
+                    
+                let fnamn = eInputFnamn.value;
+                let enamn = eInputEnamn.value;
+                let ålder = eInputÅlder.value;
+                let svar = eInputSvar.value;
+
+                if (ålder >= 18);
+
+                eInputSvar value = "Du har möjlighet att skaffa körkort!";
+                } else {
+                eInputSvar value = "Väx upp lite till bebben sen får du köra!";
+                }
+        </script>
+</body>
+</html>

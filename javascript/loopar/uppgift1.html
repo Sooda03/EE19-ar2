@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Folkrikaste land</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Folkrikaste landet i europa!</h1>
+        <button onclick="loopa()">Gissa det folkrikaste landet i europa!</button>
+    </div>
+    <script>
+        function loopa() {
+            var land = "frankrike";
+
+            while (true) {
+
+                var gissning = prompt("Vilket är det land med flest invånare i europa")
+
+                if (gissning == land) {
+                    alert("Rätt! Vive la France");
+                    break;
+                } else {
+                    alert("Fel land dumbo");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

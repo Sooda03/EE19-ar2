@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Datorlista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Datorlista</h1>
+        <label>Ange namn <input class="form-control" type="text"></label>
+        <label>Ange CPU
+            <select>
+                <option value="R3">AMD Ryzen 3 3100 3.6GHz 18MB</option>
+                <option value="R5">AMD Ryzen 5 3600 3.6GHz 35MB</option>
+                <option value="R7">AMD Ryzen 7 3700X 3.6GHz 36MB</option>
+                <option value="I3">Intel Core i3 9100F 3.6GHz 6MB</option>
+                <option value="I5">Intel Core i5 10500 3.1GHz 12MB</option>
+                <option value="I7">Intel Core i7 11700 2.5GHz 16MB</option>
+            </select>
+        </label>
+
+        <button>Beställ!</button>
+
+        <h3>Lista</h3>
+
+        <ul class="list-group"></ul>
+        <div>
+            <script> src="./cpu.js"</script>
+        </div>
+    </div>
+</body>
+</html>

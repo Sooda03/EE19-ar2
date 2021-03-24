@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Slutbetyg</h1>
+        <button onclick="slutbetyg()">Gissa Slutbetyg</button>
+    </div>
+    <script>
+        function slutbetyg() {
+            var slumptal = Math.floor(Math.random() * 5);
+            //alert("slumptal = " + slumptal);
+
+            if (slumptal == 0) {
+                alert("Du får slutbetyg F 🤬");
+            }
+            if (slumptal == 1) {
+                alert("Du får slutbetyg E 🤬");
+            }
+            if (slumptal == 2) {
+                alert("Du får slutbetyg D 🤬");
+            }
+            if (slumptal == 3) {
+                alert("Du får slutbetyg C 🤬");
+            }
+            if (slumptal == 4) {
+                alert("Du får slutbetyg B 🤬");
+            }
+            if (slumptal == 5) {
+                alert("Du får slutbetyg A 🤑");
+            }
+            
+            switch (slumptal) {
+                case 1:
+                    alert("Du får slutbetyg E");
+                    break;
+
+                case 2:
+                    alert("Du får slutbetyg D");
+                    break;
+                
+                case 3:
+                    alert("Du får slutbetyg C");
+                    break;
+                
+                case 4:
+                    alert("Du får slutbetyg B");
+                    break;
+                
+                case 5:
+                    alert("Du får slutbetyg A");
+                    break;
+
+                default:
+                    alert("Du får slutbetyg F!")
+            }
+        }
+    </script>
+</body>
+</html>
