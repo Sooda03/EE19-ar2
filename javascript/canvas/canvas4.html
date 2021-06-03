@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas></canvas>
+    <script>
+        const rityta = document.querySelector("canvas");
+
+        rityta.width = 800;
+        rityta.height = 600;
+
+        var ctx = rityta.getContext("2d");
+
+        //ctx.strokeRect(100, 100, 200, 200);
+        //ctx.fillRect(400, 100, 200, 200);
+
+        ctx.beginPath();
+        //Marken
+        ctx.lineWidth = 10;
+        ctx.strokeStyle = "green";
+        ctx.moveTo(100, 500);
+        ctx.lineTo(600, 500);
+        ctx.stroke();
+        //Pålen
+        ctx.lineWidth = 5;
+        ctx.strokeStyle = "brown";
+        ctx.moveTo(200, 500);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+
+        //Balken
+        ctx.lineTo(400, 100);
+        ctx.stroke();
+
+        //Repet
+        ctx.lineTo(400, 150);
+        ctx.stroke();
+
+        //Huvudet
+        ctx.moveTo(450, 200);
+        ctx.arc(400, 200, 50, 0, 6.28);
+        ctx.stroke();
+
+        //Överkroppen
+        ctx.moveTo(400, 250);
+        ctx.lineTo(400, 400);
+        ctx.stroke();
+
+        //Benen
+        ctx.lineTo(450, 450);
+        ctx.moveTo(400, 400);
+        ctx.lineTo(350, 450);
+        ctx.stroke();
+
+        //Armarna
+        ctx.moveTo(400, 250);
+        ctx.lineTo(350, 300);
+        ctx.moveTo(400, 250);
+        ctx.lineTo(450, 300);
+        ctx.stroke();
+    </script>
+</body>
+</html>

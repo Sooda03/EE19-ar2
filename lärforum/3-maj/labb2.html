@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Läsa av input-rutor</h1>
+        <h2>Input</h2>
+        <label>Ange lösenord <input class="lösen" type="text"></label>
+        <button>Skicka</button>
+        <h2>Output</h2>
+        <label>Svar <textarea></textarea></label>
+    </div>
+    <script>
+        const rutaLösen = document.querySelector(".lösen");
+        const knappen = document.querySelector("button");
+        const rutaSvar = document.querySelector("textarea");
+
+        knappen.addEventListener("click", function () {
+            console.log("Du clickade på knappen");
+
+            //rutaSvar.value = "Hejhej " + rutaFnamn.value + " " + rutaEnamn.value + ", du är " + rutaAlder.value + " år gammal.";
+
+            if (rutaLösen.value == "030318") {
+                rutaSvar.value = "Välkommen Pontus!";
+            } else {
+                rutaSvar.value = "Sorry det var fel lösenord";
+            }
+        });
+    </script>
+</body>
+</html>
